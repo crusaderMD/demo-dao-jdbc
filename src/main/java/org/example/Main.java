@@ -9,7 +9,7 @@ public class Main {
 
         SellerDao sellerDao = DaoFactory.createSellerDao();
 
-        Seller seller = sellerDao.findById(3);
+        Seller seller = sellerDao.findById(Integer.valueOf(3));
 
         System.out.println(seller);
     }
