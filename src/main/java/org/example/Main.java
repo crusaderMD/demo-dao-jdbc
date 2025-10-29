@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.db.DB;
 import org.example.db.DbException;
+import org.example.model.dao.DaoFactory;
+import org.example.model.dao.SellerDao;
 import org.example.model.entities.Department;
 import org.example.model.entities.Seller;
 
@@ -24,6 +26,8 @@ public class Main {
                 new Date(1979, 5,21),
                 3000.0,
                 obj);
+
+        SellerDao sellerDao = DaoFactory.createSellerDao();
 
         System.out.println(seller);
     }
