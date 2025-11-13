@@ -1,0 +1,55 @@
+# Configurações locais e credenciais
+*.properties
+*.env
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs e cache do IntelliJ
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/contentModel.xml
+.idea/**/modules.xml
+
+# Build outputs (dependendo do tipo de projeto)
+out/
+target/
+build/
+
+# Arquivos temporários do sistema
+*.class
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Arquivos de dependência locais (não versionados)
+*.jar
+*.war
+*.ear
+
+# Configurações de ambiente pessoal
+.env
+*.env
+
+# Configurações do IntelliJ específicas do usuário
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Plugins do IntelliJ
+.idea/**/httpRequests/
+.idea/**/httpRequests/
+
+#
